@@ -1,0 +1,67 @@
+{
+  "name": "满觉陇 · 桂雨山径",
+  "short_name": "桂雨山径",
+  "description": "杭州满觉陇 · 桂雨山径 3D 徒步行程地图：石屋洞、满陇桂雨、汤屋、白鹤峰、水乐洞、烟霞洞、杨梅岭、九溪。",
+  "lang": "zh-CN",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "orientation": "portrait",
+  "background_color": "#FBF6EA",
+  "theme_color": "#FBF6EA",
+  "categories": [
+    "travel",
+    "navigation",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "路线一 · 半日 3h",
+      "short_name": "半日环山",
+      "url": "./#r1",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "路线二 · 全日 7h",
+      "short_name": "走到底",
+      "url": "./#r2",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
